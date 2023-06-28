@@ -1,0 +1,19 @@
+<br>
+<br>
+<br>
+<br>
+  NAME<input type="text" [(ngModel)]="name"/><br>
+ <input type="button" value="click" (click)="callsomelogic()"/>
+<br>
+
+LIST OF PATIENTS
+<table>
+  <tr *ngFor="let temp of names">
+    <td>
+      {{temp}}
+    </td>
+  </tr>
+</table>
+<br>
+
+<input type="button" value="Finish" (click)="calllogic2()"/>

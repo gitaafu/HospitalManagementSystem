@@ -1,0 +1,3 @@
+[submodule "HospitalManagementSystem"]
+	path = HospitalManagementSystem
+	url = https://github.com/gitaafu/HospitalMngmSystem.git
